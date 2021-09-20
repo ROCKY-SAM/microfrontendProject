@@ -1,11 +1,23 @@
-# microfrontendProject
-Micro Frontends with Webpack 5, Module Federation 
+# Micro-frontend Project
 
+_Micro-frontend architecture is a design approach in which a front-end app is decomposed into individual, semi-independent “microapps” working loosely together. The micro-frontend concept is vaguely inspired by, and named after, microservices._
+
+## The benefits of the micro-frontend pattern include:
+
+   - Micro-frontend architectures may be simpler, and thus easier to reason about and manage.
+   - Independent development teams can collaborate on a front-end app more easily.
+   - They can provide a means for migrating from an “old” app by having a “new” app running side by side with it.
+
+
+## Micro Frontends with Webpack 5, Module Federation 
+
+_Module Federation allows loading separately compiled and deployed code (like micro frontends or plugins) into an application. This plugin makes Module Federation work together with Angular and the CLI._
+
+```sh
 https://www.npmjs.com/package/@angular-architects/module-federation
-
 npm i @angular-architects/module-federation
-
---> ng add @angular-architects/module-federation@next
+ng add @angular-architects/module-federation@next
+```
 
 ## Main Application where the Navigation bar is defined and linked to other applications
 ![image](https://user-images.githubusercontent.com/12700182/134022483-ab82d96b-475c-4f79-8423-07a467576f4e.png)
