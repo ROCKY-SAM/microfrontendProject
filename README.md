@@ -19,13 +19,13 @@ npm i @angular-architects/module-federation
 ng add @angular-architects/module-federation@next
 ```
 
-> In this project, I have created three angular applications. which are shell, app one and app two and one react application mfe4
+> In this project, I have created three angular applications and one react application. which are shell, app one, and app two using angular and mfe4 using react
 >
-> Shell application is the main application where all other applications are going to display under the main navigation bar.
+> Shell application is the main application and all other applications are going to display under the main navigation bar.
 >
-> App one angular application is to demonstrate even with the micro frontend sub-application own routing is working.
+> App one is an angular application with routing enabled.
 >
-> App two is a normal application. 
+> App two is a normal angular application. 
 > 
 > App three is a react application to show that other frameworks can also join together using micro frontend
 
