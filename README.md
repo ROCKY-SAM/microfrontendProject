@@ -19,6 +19,17 @@ npm i @angular-architects/module-federation
 ng add @angular-architects/module-federation@next
 ```
 
+> In this project, I have created three angular applications. which are shell, app one and app two and one react application mfe4
+>
+> Shell application is the main application where all other applications are going to display under the main navigation bar.
+>
+> App one angular application is to demonstrate even with the micro frontend sub-application own routing is working.
+>
+> App two is a normal application. 
+> 
+> App three is a react application to show that other frameworks can also join together using micro frontend
+
+
 ## Main Application where the Navigation bar is defined and linked to other applications
 ![image](https://user-images.githubusercontent.com/12700182/134022483-ab82d96b-475c-4f79-8423-07a467576f4e.png)
 ## This is the micro frontend  application one with sub routing enable build using angular
